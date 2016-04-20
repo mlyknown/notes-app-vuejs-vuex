@@ -4,19 +4,7 @@ import Vuex from 'vuex'
 Vue.use(Vuex)
 
 const state = {
-  notes: [{
-    text: 'Building a Notes App with Vuex',
-    favorite: false
-  },{
-    text: 'SSH Commands',
-    favorite: false
-  },{
-    text: 'NGINX Configuration',
-    favorite: false
-  },{
-    text: 'Node.js Cheatsheet',
-    favorite: false
-  }],
+  notes: [],
   activeNote: {}
 }
 
